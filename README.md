@@ -43,6 +43,7 @@ OS:            Kali Linux, Windows
 Role:          Penetration Tester | OSCP+
 Location:      Brooklyn, New York
 Certs:         OSCP+ (OffSec)
+Degree:        Master of Public Administration at University at Albany
 
 Technical Skills ────────────────────────────
 AD & Network:  Kerberoasting, Pass-the-Hash
@@ -55,7 +56,7 @@ Scripting:     Python, Bash, PowerShell
 Contact & Links ─────────────────────────────
 Website:       arakandata.com
 Email:         kyawwintun.as@gmail.com
-GitHub:        [github.com/kyawwintun](https://github.com/kyawwintun)
+Github:        https://github.com/kyawwintun-as
 Languages:     English, Burmese, Rakhine
 ```
 
