@@ -38,25 +38,25 @@ oOdccc:''..           .:lodoollccclc..x00000000OOOkkkd;:clodd
 <td align="left">
 
 ```text
-kyawwintun@profile ──────────────────────────
-OS:            Kali Linux, Windows
-Role:          Penetration Tester | OSCP+
-Location:      Brooklyn, New York
-Certs:         OSCP+ (OffSec)
+kyawwintun@profile ─────────────────────
+OS:        Kali Linux, Windows
+Role:      Penetration Tester | OSCP+
+Location:  Brooklyn, New York
+Certs:     OSCP+ (OffSec)
 
-Technical Skills ────────────────────────────
-AD & Network:  Kerberoasting, Pass-the-Hash
-Recon:         Nmap, Gobuster, NetExec
-Web Exploits:  SQLi, XSS, Command Injection
-Pivoting:      Chisel, Ligolo-ng, SSH
-Post-Exploit:  LinPEAS, Mimikatz, GodPotato
-Scripting:     Python, Bash, PowerShell
+Technical Skills ───────────────────────
+AD & Net:  Kerberoasting, Pass-the-Hash
+Recon:     Nmap, Gobuster, NetExec
+Web Apps:  SQLi, XSS, Cmd Injection
+Pivoting:  Chisel, Ligolo-ng, SSH
+Post-Exp:  LinPEAS, Mimikatz, GodPotato
+Scripting: Python, Bash, PowerShell
 
-Contact & Links ─────────────────────────────
-Website:       arakandata.com
-Email:         kyawwintun.as@gmail.com
-GitHub:        [github.com/kyawwintun](https://github.com/kyawwintun)
-Languages:     English, Burmese, Rakhine
+Contact & Links ────────────────────────
+Website:   arakandata.com
+Email:     kyawwintun.as@gmail.com
+GitHub:    kyawwintun
+Languages: English, Burmese, Rakhine
 ```
 
 </td>
@@ -65,18 +65,18 @@ Languages:     English, Burmese, Rakhine
 
 ---
 
-### 🛡️ Security Projects & Portfolio
+🛡️ Security Projects & Portfolio
 
-#### 1. Enterprise Active Directory Lab & Attack Simulation 
-* **Design:** Designed and built a simulated enterprise network environment featuring multi-domain Active Directory, domain-joined workstations (`WIN-AS-DEV`, `WINLWINOO`), a Domain Controller (`ASPIRATION-DC`), and active antivirus defenses to create realistic attack-surface conditions.
-* **Exploitation:** Achieved full Domain Controller compromise through a multi-stage attack chain: SMB enumeration → credential discovery in user descriptions → WinRM access (`Evil-WinRM`) → BloodHound AD analysis → Kerberoasting (`impacket-GetUserSPNs`) → hash cracking (`Hashcat`) → lateral movement via ACL abuse (`ForceChangePassword`) → SAM hash dumping → password reuse exploitation → DC compromise.
-* **Evasion & Reporting:** Bypassed antivirus using manual enumeration when Mimikatz and `impacket-psexec` were blocked. Authored a 13-page report with executive summary, attack-chain walkthroughs, and four remediation categories: credential storage, AD ACL auditing, LAPS deployment, and audit/monitoring.
+1. Enterprise Active Directory Lab & Attack Simulation
+Design: Designed and built a simulated enterprise network environment featuring multi-domain Active Directory, domain-joined workstations (WIN-AS-DEV, WINLWINOO), a Domain Controller (ASPIRATION-DC), and active antivirus defenses to create realistic attack-surface conditions[cite: 2].
+Exploitation: Achieved full Domain Controller compromise through a multi-stage attack chain: SMB enumeration → credential discovery in user descriptions → WinRM access (Evil-WinRM) → BloodHound AD analysis → Kerberoasting (impacket-GetUserSPNs) → hash cracking (Hashcat) → lateral movement via ACL abuse (ForceChangePassword) → SAM hash dumping → password reuse exploitation → DC compromise[cite: 2].
+Evasion & Reporting: Bypassed antivirus using manual enumeration when Mimikatz and impacket-psexec were blocked[cite: 2]. Authored a 13-page report with executive summary, attack-chain walkthroughs, and four remediation categories: credential storage, AD ACL auditing, LAPS deployment, and audit/monitoring[cite: 2].
 
-#### 2. Web Application Penetration Test Lab & Report 
-* **Scope:** Conducted comprehensive web application penetration testing on a custom-built lab environment with both external and internal web applications, simulating a real-world engagement scope.
-* **Execution:** Exploited a file upload vulnerability by bypassing `Content-Type` validation via Burp Suite, deploying a PHP backdoor for initial access, then escalated using `SeImpersonatePrivilege` abuse (`GodPotato`) to `NT AUTHORITY\SYSTEM.
-* **Pivoting:** Pivoted into an internal network via Ligolo-ng, identified OS command injection in an internal reporting app running as SYSTEM, achieving full host compromise. Produced a 14-page report with remediation categories: file-upload hardening, input sanitization, privilege restriction, and network segmentation.
+2. Web Application Penetration Test Lab & Report
+Scope: Conducted comprehensive web application penetration testing on a custom-built lab environment with both external and internal web applications, simulating a real-world engagement scope[cite: 3].
+Execution: Exploited a file upload vulnerability by bypassing Content-Type validation via Burp Suite, deploying a PHP backdoor for initial access, then escalated using SeImpersonatePrivilege abuse (GodPotato) to `NT AUTHORITY\SYSTEM[cite: 3].
+Pivoting: Pivoted into an internal network via Ligolo-ng, identified OS command injection in an internal reporting app running as SYSTEM, achieving full host compromise[cite: 3]. Produced a 14-page report with remediation categories: file-upload hardening, input sanitization, privilege restriction, and network segmentation[cite: 3].
 
-#### 3. ArakanData.com — Full-Stack Secure Web Application
-* **Development:** Independently developed a full-stack web application incorporating role-based access control (RBAC), input sanitization, secure authentication workflows, and modern security controls to understand web security from a developer's defensive perspective.
-* **Best Practices:** Implemented data validation, authorization boundaries, and OWASP best practices throughout the application stack, demonstrating practical application of secure development principles.
+3. ArakanData.com — Full-Stack Secure Web Application
+Development: Independently developed a full-stack web application incorporating role-based access control (RBAC), input sanitization, secure authentication workflows, and modern security controls to understand web security from a developer's defensive perspective[cite: 3].
+Best Practices: Implemented data validation, authorization boundaries, and OWASP best practices throughout the application stack, demonstrating practical application of secure development principles[cite: 3].
