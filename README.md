@@ -38,11 +38,12 @@ oOdccc:''..           .:lodoollccclc..x00000000OOOkkkd;:clodd
 <td align="left">
 
 ```text
-kyawwintun@profile ─────────────────────
-OS:        Kali Linux, Windows
+root# whoami ─────────────────────
+OS:        Kali Linux, LinuxSYSTEM administration, Windows
 Role:      Penetration Tester | OSCP+
 Location:  Brooklyn, New York
 Certs:     OSCP+ (OffSec)
+Degree:    Master of Public Administration (SUNY at Albany)
 
 Technical Skills ───────────────────────
 AD & Net:  Kerberoasting, Pass-the-Hash
@@ -66,18 +67,18 @@ Languages: English, Burmese, Rakhine
 
 ---
 
-### 🛡️ <font color="#2ea44f">Security Projects & Portfolio</font>
+### 🛡️ Security Projects & Portfolio
 
-#### 1. <font color="#58a6ff">Enterprise Active Directory Lab & Attack Simulation</font>
+#### 1. Enterprise Active Directory Lab & Attack Simulation
 * **Design:** Designed and built a simulated enterprise network environment featuring multi-domain Active Directory, domain-joined workstations (WIN-AS-DEV, WINLWINOO), a Domain Controller (ASPIRATION-DC), and active antivirus defenses to create realistic attack-surface conditions.
 * **Exploitation:** Achieved full Domain Controller compromise through a multi-stage attack chain: `SMB enumeration` → `credential discovery` → `WinRM access` → `BloodHound AD analysis` → `Kerberoasting` → `hash cracking` → `ACL abuse` → `SAM hash dumping` → `DC compromise`.
 * **Evasion & Reporting:** Bypassed antivirus using manual enumeration when Mimikatz and impacket-psexec were blocked. Authored a 13-page report with executive summary, attack-chain walkthroughs, and four remediation categories: credential storage, AD ACL auditing, LAPS deployment, and audit/monitoring.
 
-#### 2. <font color="#58a6ff">Web Application Penetration Test Lab & Report</font>
+#### 2. Web Application Penetration Test Lab & Report
 * **Scope:** Conducted comprehensive web application penetration testing on a custom-built lab environment with both external and internal web applications, simulating a real-world engagement scope.
 * **Execution:** Exploited a file upload vulnerability by bypassing Content-Type validation via Burp Suite, deploying a PHP backdoor for initial access, then escalated using SeImpersonatePrivilege abuse (GodPotato) to `NT AUTHORITY\SYSTEM`.
 * **Pivoting:** Pivoted into an internal network via Ligolo-ng, identified OS command injection in an internal reporting app running as SYSTEM, achieving full host compromise. Produced a 14-page report with remediation categories: file-upload hardening, input sanitization, privilege restriction, and network segmentation.
 
-#### 3. <font color="#58a6ff">ArakanData.com — Full-Stack Secure Web Application</font>
+#### 3. ArakanData.com — Full-Stack Secure Web Application
 * **Development:** Independently developed a full-stack web application incorporating role-based access control (RBAC), input sanitization, secure authentication workflows, and modern security controls to understand web security from a developer's defensive perspective.
 * **Best Practices:** Implemented data validation, authorization boundaries, and OWASP best practices throughout the application stack, demonstrating practical application of secure development principles.
