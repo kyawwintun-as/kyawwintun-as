@@ -1,4 +1,4 @@
-<table border="0">
+<table border="0" cellpadding="0" cellspacing="0">
 <tr valign="top">
 <td>
 
@@ -35,24 +35,29 @@ oOdccc:''..           .:lodoollccclc..x00000000OOOkkkd;:clodd
 ```
 
 </td>
+<td width="20"></td>
 <td>
 
 ```text
-user@profile ─────────────────────────────────────────
-OS:                     Linux / Windows
-Role:                   Security Researcher / Developer
-Languages.Programming:  Python, Nim, PowerShell
-Languages.Real:         Burmese, English
+kyawwintun@profile ──────────────────────────────────────────────────────────
+OS:                      Kali Linux,Linux System Administration, Windows
+Role:                    Penetration Tester & Ethical Hacker | OSCP+
+Location:                Brooklyn, New York
+Certifications:          OffSec Certified Professional+ (OSCP+)
 
-Skills & Interests ───────────────────────────────────
-Software:               Active Directory, Cyber Security, Web Apps
-Tools:                  Burp Suite, NetExec, Impacket, Metasploit
+Technical Skills ───────────────────────────────────────────────────────────
+AD & Network:            Kerberoasting, AS-REP Roasting, Pass-the-Hash, DCSync
+Recon & Enumeration:     Nmap, Gobuster, Feroxbuster, NetExec (nxc), Ffuf
+Web Exploitation:        SQLi, XSS, LFI/RFI, Command Injection, Burp Suite
+Pivoting & Tunneling:    Chisel, Ligolo-ng, SSH Tunneling
+Post-Exploitation:       LinPEAS, WinPEAS, Mimikatz, Hashcat, GodPotato
+Scripting:               Python, Bash, PowerShell
 
-Contact Information ──────────────────────────────────
-Email:                  your.email@example.com
-GitHub:                 [github.com/yourusername](https://github.com/yourusername)
-LinkedIn:               [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
-Discord:                yourusername#0000
+Contact & Links ────────────────────────────────────────────────────────────
+Website:                 arakandata.com
+Email:                   kyawwintun.as@gmail.com
+GitHub:                  [github.com/kyawwintun](https://github.com/kyawwintun)
+Languages:               English, Burmese, Rakhine
 ```
 
 </td>
