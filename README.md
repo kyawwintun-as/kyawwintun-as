@@ -1,6 +1,6 @@
-<table border="0" cellpadding="0" cellspacing="0">
+<table>
 <tr valign="top">
-<td>
+<td align="left">
 
 ```text
 ;ccccllllllooooddddddddxxxxdl:.'''.   . ....,:,;oxkxxxxdddddd 
@@ -35,29 +35,28 @@ oOdccc:''..           .:lodoollccclc..x00000000OOOkkkd;:clodd
 ```
 
 </td>
-<td width="20"></td>
-<td>
+<td align="left">
 
 ```text
-kyawwintun@profile ──────────────────────────────────────────────────────────
-OS:                      Kali Linux,Linux System Administration, Windows
-Role:                    Penetration Tester & Ethical Hacker | OSCP+
-Location:                Brooklyn, New York
-Certifications:          OffSec Certified Professional+ (OSCP+)
+kyawwintun@profile ──────────────────────────
+OS:            Kali Linux, Windows
+Role:          Penetration Tester | OSCP+
+Location:      Brooklyn, New York
+Certs:         OSCP+ (OffSec)
 
-Technical Skills ───────────────────────────────────────────────────────────
-AD & Network:            Kerberoasting, AS-REP Roasting, Pass-the-Hash, DCSync
-Recon & Enumeration:     Nmap, Gobuster, Feroxbuster, NetExec (nxc), Ffuf
-Web Exploitation:        SQLi, XSS, LFI/RFI, Command Injection, Burp Suite
-Pivoting & Tunneling:    Chisel, Ligolo-ng, SSH Tunneling
-Post-Exploitation:       LinPEAS, WinPEAS, Mimikatz, Hashcat, GodPotato
-Scripting:               Python, Bash, PowerShell
+Technical Skills ────────────────────────────
+AD & Network:  Kerberoasting, Pass-the-Hash
+Recon:         Nmap, Gobuster, NetExec
+Web Exploits:  SQLi, XSS, Command Injection
+Pivoting:      Chisel, Ligolo-ng, SSH
+Post-Exploit:  LinPEAS, Mimikatz, GodPotato
+Scripting:     Python, Bash, PowerShell
 
-Contact & Links ────────────────────────────────────────────────────────────
-Website:                 arakandata.com
-Email:                   kyawwintun.as@gmail.com
-GitHub:                  [github.com/kyawwintun](https://github.com/kyawwintun)
-Languages:               English, Burmese, Rakhine
+Contact & Links ─────────────────────────────
+Website:       arakandata.com
+Email:         kyawwintun.as@gmail.com
+GitHub:        [github.com/kyawwintun](https://github.com/kyawwintun)
+Languages:     English, Burmese, Rakhine
 ```
 
 </td>
